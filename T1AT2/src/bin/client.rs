@@ -132,7 +132,7 @@ async fn main() {
                         println!("SET SUCCESS");
                         
                     } else {
-                        println!("ALREADY EXISTED");
+                        println!("ALREADY EXISTED OR IS SLAVE");
                     }
                 } else if info.op=="get".to_string() {
                     if info.status{
